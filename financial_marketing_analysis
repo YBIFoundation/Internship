@@ -1,0 +1,191 @@
+import pandas as pd
+import pandas as pd
+
+# Load data, trying a different encoding
+df = pd.read_csv('/content/all-data.csv', encoding='latin-1')  # Try 'latin-1' or other encodings if this doesn't work
+
+# Display the first few rows
+print(df.head())
+import pandas as pd
+import re
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+import nltk
+import matplotlib.pyplot as plt
+
+# Load necessary NLTK data files
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('vader_lexicon')
+
+# Sample data for the example
+data = {
+    'date': ['2024-06-15', '2024-06-16', '2024-06-17'],
+    'headline': [
+        'Stocks soar as market rallies on positive earnings reports',
+        'Market declines amid growing economic concerns',
+        'Tech stocks lead the charge in a mixed trading day'
+    ]
+}
+df = pd.DataFrame(data)
+
+# Function to preprocess text
+def preprocess_text(text):
+    text = text.lower()  # Convert to lowercase
+    text = re.sub(r'\d+', '', text)  # Remove numbers
+    text = re.sub(r'[^\w\s]', '', text)  # Remove punctuation
+    tokens = word_tokenize(text)  # Tokenize
+    tokens = [word for word in tokens if word not in stopwords.words('english')]  # Remove stopwords
+    lemmatizer = WordNetLemmatizer()
+    tokens = [lemmatizer.lemmatize(word) for word in tokens]  # Lemmatize
+    return ' '.join(tokens)
+
+# Apply preprocessing
+df['cleaned_headline'] = df['headline'].apply(preprocess_text)
+
+# Initialize VADER sentiment analyzer
+sia = SentimentIntensityAnalyzer()
+
+# Function to get sentiment scores
+def get_sentiment(text):
+    return sia.polarity_scores(text)
+
+# Apply sentiment analysis
+df['sentiment'] = df['cleaned_headline'].apply(get_sentiment)
+
+# Extract sentiment scores
+df = pd.concat([df.drop(['sentiment'], axis=1), df['sentiment'].apply(pd.Series)], axis=1)
+
+# Convert date column to datetime
+df['date'] = pd.to_datetime(df['date'])
+
+# Aggregate sentiment scores by date - Calculate mean for each score separately
+daily_sentiment = df.groupby(df['date'].dt.date)[['neg', 'neu', 'pos', 'compound']].mean()
+
+# Plot the compound sentiment scores
+plt.figure(figsize=(12, 6))
+plt.plot(daily_sentiment.index, daily_sentiment['compound'], marker='o')
+plt.title('Daily Sentiment Score of Financial News')
+plt.xlabel('Date')
+plt.ylabel('Average Compound Sentiment Score') # Changed y-axis label for clarity
+plt.grid(True)
+plt.show()
+
+# Display the final dataframe
+print(df.head())
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+
+# Download the VADER lexicon
+nltk.download('vader_lexicon')
+
+# Initialize VADER sentiment analyzer
+sia = SentimentIntensityAnalyzer()
+
+# Function to get sentiment scores
+def get_sentiment(text):
+    return sia.polarity_scores(text)
+
+# Apply sentiment analysis
+df['sentiment'] = df['cleaned_headline'].apply(get_sentiment)
+
+# Extract sentiment scores
+df = pd.concat([df.drop(['sentiment'], axis=1), df['sentiment'].apply(pd.Series)], axis=1)
+
+# Display the results
+print(df.head())
+
+# prompt: We can aggregate the sentiment scores over time and visualize them.
+# give code which is suitable for above dataset
+
+import pandas as pd
+import matplotlib.pyplot as plt
+# Convert date column to datetime
+df['date'] = pd.to_datetime(df['date'])
+
+# Aggregate sentiment scores by date - Calculate mean for each score separately
+daily_sentiment = df.groupby(df['date'].dt.date)[['neg', 'neu', 'pos', 'compound']].mean()
+
+# Plot the compound sentiment scores
+plt.figure(figsize=(12, 6))
+plt.plot(daily_sentiment.index, daily_sentiment['compound'], marker='o')
+plt.title('Daily Sentiment Score of Financial News')
+plt.xlabel('Date')
+plt.ylabel('Average Compound Sentiment Score')
+plt.grid(True)
+plt.show()
+# prompt: get code for output without a graph
+
+import pandas as pd
+# Step 3: Sentiment Analysis
+# 
+
+# Download the VADER lexicon
+nltk.download('vader_lexicon')
+
+# Initialize VADER sentiment analyzer
+sia = SentimentIntensityAnalyzer()
+
+# Function to get sentiment scores
+def get_sentiment(text):
+    return sia.polarity_scores(text)
+
+# Apply sentiment analysis
+df['sentiment'] = df['cleaned_headline'].apply(get_sentiment)
+
+# Extract sentiment scores
+df = pd.concat([df.drop(['sentiment'], axis=1), df['sentiment'].apply(pd.Series)], axis=1)
+
+# Display the results
+print(df.head())
+
+# Step 4: Aggregation and Visualization
+# 
+
+# Convert date column to datetime
+df['date'] = pd.to_datetime(df['date'])
+
+# Aggregate sentiment scores by date - Calculate mean for each score separately
+daily_sentiment = df.groupby(df['date'].dt.date)[['neg', 'neu', 'pos', 'compound']].mean()
+
+# Print the daily sentiment scores
+print(daily_sentiment.head())
+
+# prompt: give the information above the result.
+
+print("Sentiment Analysis Results:")
+print("-" * 30)
+print(df.head())
+
+print("\nDaily Sentiment Scores:")
+print("-" * 30)
+print(daily_sentiment.head())
+
+# prompt: from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score give correct 
+
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+
+# Calculate the performance metrics
+accuracy = accuracy_score(y_true, y_pred)
+precision = precision_score(y_true, y_pred)
+recall = recall_score(y_true, y_pred)
+f1 = f1_score(y_true, y_pred)
+
+# Print the results
+print("Accuracy:", accuracy)
+print("Precision:", precision)
+print("Recall:", recall)
+print("F1 Score:", f1)
+# prompt: by this reslut plot a graph
+
+import matplotlib.pyplot as plt
+# Plot the average compound sentiment score for each day
+plt.figure(figsize=(12, 6))
+plt.plot(daily_sentiment.index, daily_sentiment['compound'], marker='o')
+plt.title('Daily Sentiment Score of Financial News')
+plt.xlabel('Date')
+plt.ylabel('Average Compound Sentiment Score')
+plt.grid(True)
+plt.show()
