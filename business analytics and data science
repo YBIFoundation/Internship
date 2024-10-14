@@ -1,0 +1,132 @@
+Data is a valuable resource in today’s ever-changing marketplace. ForData is a valuable resource in today’s ever-changing marketplace. For business professionals, knowing how to interpret and communicate data is an indispensable skill that can inform sound decision-making.
+
+“The ability to bring data-driven insights into decision-making is extremely powerful—all the more so given all the companies that can’t hire enough people who have these capabilities,” says Harvard Business School Professor Jan Hammond, who teaches the online course Business Analytics. “It’s the way the world is going.”
+
+Before taking a look at how some companies are harnessing the power of data, it’s important to have a baseline understanding of what the term “business analytics” means.
+
+Free E-Book: A Beginner's Guide to Data & Analytics
+Access your free e-book today.
+
+DOWNLOAD NOW
+
+What Is Business Analytics?
+Business analytics is the use of math and statistics to collect, analyze, and interpret data to make better business decisions.
+
+There are four key types of business analytics: descriptive, predictive, diagnostic, and prescriptive. Descriptive analytics is the interpretation of historical data to identify trends and patterns, while predictive analytics centers on taking that information and using it to forecast future outcomes. Diagnostic analytics can be used to identify the root cause of a problem. In the case of prescriptive analytics, testing and other techniques are employed to determine which outcome will yield the best result in a given scenario.
+
+Related: 4 Types of Data Analytics to Improve Decision-Making
+
+Across industries, these data-driven approaches have been employed by professionals to make informed business decisions and attain organizational success.
+
+Check out the video below to learn more about business analytics, and subscribe to our YouTube channel for more explainer content!
+
+View Video
+
+Business Analytics vs. Data Science
+It’s important to highlight the difference between business analytics and data science. While both processes use big data to solve business problems they’re separate fields.
+
+The main goal of business analytics is to extract meaningful insights from data to guide organizational decisions, while data science is focused on turning raw data into meaningful conclusions through using algorithms and statistical models. Business analysts participate in tasks such as budgeting, forecasting, and product development, while data scientists focus on data wrangling, programming, and statistical modeling.
+
+While they consist of different functions and processes, business analytics and data science are both vital to today’s organizations. Here are four examples of how organizations are using business analytics to their benefit.
+
+Business Analytics | Become a data-driven leader | Learn More
+Business Analytics Examples
+According to a recent survey by McKinsey, an increasing share of organizations report using analytics to generate growth. Here’s a look at how four companies are aligning with that trend and applying data insights to their decision-making processes.
+
+1. Improving Productivity and Collaboration at Microsoft
+At technology giant Microsoft, collaboration is key to a productive, innovative work environment. Following a 2015 move of its engineering group's offices, the company sought to understand how fostering face-to-face interactions among staff could boost employee performance and save money.
+
+Microsoft’s Workplace Analytics team hypothesized that moving the 1,200-person group from five buildings to four could improve collaboration by increasing the number of employees per building and reducing the distance that staff needed to travel for meetings. This assumption was partially based on an earlier study by Microsoft, which found that people are more likely to collaborate when they’re more closely located to one another.
+
+In an article for the Harvard Business Review, the company’s analytics team shared the outcomes they observed as a result of the relocation. Through looking at metadata attached to employee calendars, the team found that the move resulted in a 46 percent decrease in meeting travel time. This translated into a combined 100 hours saved per week across all relocated staff members and an estimated savings of $520,000 per year in employee time.
+
+The results also showed that teams were meeting more often due to being in closer proximity, with the average number of weekly meetings per person increasing from 14 to 18. In addition, the average duration of meetings slightly declined, from 0.85 hours to 0.77 hours. These findings signaled that the relocation both improved collaboration among employees and increased operational efficiency.
+
+For Microsoft, the insights gleaned from this analysis underscored the importance of in-person interactions and helped the company understand how thoughtful planning of employee workspaces could lead to significant time and cost savings.
+
+2. Enhancing Customer Support at Uber
+Ensuring a quality user experience is a top priority for ride-hailing company Uber. To streamline its customer service capabilities, the company developed a Customer Obsession Ticket Assistant (COTA) in early 2018—a tool that uses machine learning and natural language processing to help agents improve their speed and accuracy when responding to support tickets.
+
+COTA’s implementation delivered positive results. The tool reduced ticket resolution time by 10 percent, and its success prompted the Uber Engineering team to explore how it could be improved.
+
+For the second iteration of the product, COTA v2, the team focused on integrating a deep learning architecture that could scale as the company grew. Before rolling out the update, Uber turned to A/B testing—a method of comparing the outcomes of two different choices (in this case, COTA v1 and COTA v2)—to validate the upgraded tool’s performance.
+
+Preceding the A/B test was an A/A test, during which both a control group and a treatment group used the first version of COTA for one week. The treatment group was then given access to COTA v2 to kick off the A/B testing phase, which lasted for one month.
+
+At the conclusion of testing, it was found that there was a nearly seven percent relative reduction in average handle time per ticket for the treatment group during the A/B phase, indicating that the use of COTA v2 led to faster service and more accurate resolution recommendations. The results also showed that customer satisfaction scores slightly improved as a result of using COTA v2.
+
+With the use of A/B testing, Uber determined that implementing COTA v2 would not only improve customer service, but save millions of dollars by streamlining its ticket resolution process.
+
+Related: How to Analyze a Dataset: 6 Steps
+
+3. Forecasting Orders and Recipes at Blue Apron
+For meal kit delivery service Blue Apron, understanding customer behavior and preferences is vitally important to its success. Each week, the company presents subscribers with a fixed menu of meals available for purchase and employs predictive analytics to forecast demand, with the aim of using data to avoid product spoilage and fulfill orders.
+
+To arrive at these predictions, Blue Apron uses algorithms that take several variables into account, which typically fall into three categories: customer-related features, recipe-related features, and seasonality features. Customer-related features describe historical data that depicts a given user’s order frequency, while recipe-related features focus on a subscriber’s past recipe preferences, allowing the company to infer which upcoming meals they’re likely to order. In the case of seasonality features, purchasing patterns are examined to determine when order rates may be higher or lower, depending on the time of year.
+
+ professionals, knowing how to interpret and communicate data is an indispensable skill that can inform sound decision-making.
+
+“The ability to bring data-driven insights into decision-making is extremely powerful—all the more so given all the companies that can’t hire enough people who have these capabilities,” says Harvard Business School Professor Jan Hammond, who teaches the online course Business Analytics. “It’s the way the world is going.”
+
+Before taking a look at how some companies are harnessing the power of data, it’s important to have a baseline understanding of what the term “business analytics” means.
+
+Free E-Book: A Beginner's Guide to Data & Analytics
+Access your free e-book today.
+
+DOWNLOAD NOW
+
+What Is Business Analytics?
+Business analytics is the use of math and statistics to collect, analyze, and interpret data to make better business decisions.
+
+There are four key types of business analytics: descriptive, predictive, diagnostic, and prescriptive. Descriptive analytics is the interpretation of historical data to identify trends and patterns, while predictive analytics centers on taking that information and using it to forecast future outcomes. Diagnostic analytics can be used to identify the root cause of a problem. In the case of prescriptive analytics, testing and other techniques are employed to determine which outcome will yield the best result in a given scenario.
+
+Related: 4 Types of Data Analytics to Improve Decision-Making
+
+Across industries, these data-driven approaches have been employed by professionals to make informed business decisions and attain organizational success.
+
+Check out the video below to learn more about business analytics, and subscribe to our YouTube channel for more explainer content!
+
+View Video
+
+Business Analytics vs. Data Science
+It’s important to highlight the difference between business analytics and data science. While both processes use big data to solve business problems they’re separate fields.
+
+The main goal of business analytics is to extract meaningful insights from data to guide organizational decisions, while data science is focused on turning raw data into meaningful conclusions through using algorithms and statistical models. Business analysts participate in tasks such as budgeting, forecasting, and product development, while data scientists focus on data wrangling, programming, and statistical modeling.
+
+While they consist of different functions and processes, business analytics and data science are both vital to today’s organizations. Here are four examples of how organizations are using business analytics to their benefit.
+
+Business Analytics | Become a data-driven leader | Learn More
+Business Analytics Examples
+According to a recent survey by McKinsey, an increasing share of organizations report using analytics to generate growth. Here’s a look at how four companies are aligning with that trend and applying data insights to their decision-making processes.
+
+1. Improving Productivity and Collaboration at Microsoft
+At technology giant Microsoft, collaboration is key to a productive, innovative work environment. Following a 2015 move of its engineering group's offices, the company sought to understand how fostering face-to-face interactions among staff could boost employee performance and save money.
+
+Microsoft’s Workplace Analytics team hypothesized that moving the 1,200-person group from five buildings to four could improve collaboration by increasing the number of employees per building and reducing the distance that staff needed to travel for meetings. This assumption was partially based on an earlier study by Microsoft, which found that people are more likely to collaborate when they’re more closely located to one another.
+
+In an article for the Harvard Business Review, the company’s analytics team shared the outcomes they observed as a result of the relocation. Through looking at metadata attached to employee calendars, the team found that the move resulted in a 46 percent decrease in meeting travel time. This translated into a combined 100 hours saved per week across all relocated staff members and an estimated savings of $520,000 per year in employee time.
+
+The results also showed that teams were meeting more often due to being in closer proximity, with the average number of weekly meetings per person increasing from 14 to 18. In addition, the average duration of meetings slightly declined, from 0.85 hours to 0.77 hours. These findings signaled that the relocation both improved collaboration among employees and increased operational efficiency.
+
+For Microsoft, the insights gleaned from this analysis underscored the importance of in-person interactions and helped the company understand how thoughtful planning of employee workspaces could lead to significant time and cost savings.
+
+2. Enhancing Customer Support at Uber
+Ensuring a quality user experience is a top priority for ride-hailing company Uber. To streamline its customer service capabilities, the company developed a Customer Obsession Ticket Assistant (COTA) in early 2018—a tool that uses machine learning and natural language processing to help agents improve their speed and accuracy when responding to support tickets.
+
+COTA’s implementation delivered positive results. The tool reduced ticket resolution time by 10 percent, and its success prompted the Uber Engineering team to explore how it could be improved.
+
+For the second iteration of the product, COTA v2, the team focused on integrating a deep learning architecture that could scale as the company grew. Before rolling out the update, Uber turned to A/B testing—a method of comparing the outcomes of two different choices (in this case, COTA v1 and COTA v2)—to validate the upgraded tool’s performance.
+
+Preceding the A/B test was an A/A test, during which both a control group and a treatment group used the first version of COTA for one week. The treatment group was then given access to COTA v2 to kick off the A/B testing phase, which lasted for one month.
+
+At the conclusion of testing, it was found that there was a nearly seven percent relative reduction in average handle time per ticket for the treatment group during the A/B phase, indicating that the use of COTA v2 led to faster service and more accurate resolution recommendations. The results also showed that customer satisfaction scores slightly improved as a result of using COTA v2.
+
+With the use of A/B testing, Uber determined that implementing COTA v2 would not only improve customer service, but save millions of dollars by streamlining its ticket resolution process.
+
+Related: How to Analyze a Dataset: 6 Steps
+
+3. Forecasting Orders and Recipes at Blue Apron
+For meal kit delivery service Blue Apron, understanding customer behavior and preferences is vitally important to its success. Each week, the company presents subscribers with a fixed menu of meals available for purchase and employs predictive analytics to forecast demand, with the aim of using data to avoid product spoilage and fulfill orders.
+
+To arrive at these predictions, Blue Apron uses algorithms that take several variables into account, which typically fall into three categories: customer-related features, recipe-related features, and seasonality features. Customer-related features describe historical data that depicts a given user’s order frequency, while recipe-related features focus on a subscriber’s past recipe preferences, allowing the company to infer which upcoming meals they’re likely to order. In the case of seasonality features, purchasing patterns are examined to determine when order rates may be higher or lower, depending on the time of year.
+
